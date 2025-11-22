@@ -1,0 +1,179 @@
+body {
+  background: #41024b;
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/*  CONTENEDOR FORMULARIO */
+.formulario-juego {
+  background: #1e1e1e;
+  padding: 25px;
+  width: 380px;
+  margin: 30px auto;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  text-align: center;
+}
+
+/* TITULO */
+.formulario-juego h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+/*  CAMPOS */
+.formulario-juego input,
+.formulario-juego select {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #2b2b2b;
+  color: white;
+  font-size: 15px;
+}
+
+.formulario-juego input::placeholder {
+  color: #aaa;
+}
+
+/* BOTÓN */
+.formulario-juego button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #6d28d9;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: .3s;
+}
+
+.formulario-juego button:hover {
+  background: #8b5cf6;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+#Titulo{
+  align-items: center;
+  color:#e4adec;
+}
+
+/* Tarjeta */
+.card-juego {
+  width: 260px;
+  padding: 15px;
+  background: #2a0030;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: .3s;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card-juego:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 20px rgba(255,255,255,0.1);
+}
+
+/* Imagen */
+.img-juego {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/*Reseñas */
+.resena {
+  background: #391438;
+  padding: 10px;
+  border-radius: 6px;
+  min-height: 50px;
+  text-align: left;
+}
+
+/*Botones */
+button {
+  background: #34023cd0;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #c05cf6;
+}
+
+.footer {
+  margin-top: 50px;
+  padding: 20px;
+  background: #111;
+  color: #aaa;
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid #333;
+}
+
+.footer p {
+  margin: 5px;
+}
+
+
+/*//////////////////////////  
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
